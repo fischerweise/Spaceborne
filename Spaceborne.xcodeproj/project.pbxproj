@@ -15,6 +15,8 @@
 		E222ABDD28467A5E00233B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E222ABDB28467A5E00233B46 /* Main.storyboard */; };
 		E222ABDF28467A6000233B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E222ABDE28467A6000233B46 /* Assets.xcassets */; };
 		E222ABE228467A6000233B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E222ABE028467A6000233B46 /* LaunchScreen.storyboard */; };
+		E2394D73284684F30050BB80 /* lazer2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2394D71284684F30050BB80 /* lazer2.mp3 */; };
+		E2394D74284684F30050BB80 /* lazer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2394D72284684F30050BB80 /* lazer.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E222ABDC28467A5E00233B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E222ABDE28467A6000233B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E222ABE128467A6000233B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2394D71284684F30050BB80 /* lazer2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lazer2.mp3; sourceTree = "<group>"; };
+		E2394D72284684F30050BB80 /* lazer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lazer.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				E222ABDB28467A5E00233B46 /* Main.storyboard */,
 				E222ABDE28467A6000233B46 /* Assets.xcassets */,
 				E222ABE028467A6000233B46 /* LaunchScreen.storyboard */,
+				E2394D72284684F30050BB80 /* lazer.mp3 */,
+				E2394D71284684F30050BB80 /* lazer2.mp3 */,
 			);
 			path = Spaceborne;
 			sourceTree = "<group>";
@@ -129,8 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2394D74284684F30050BB80 /* lazer.mp3 in Resources */,
 				E222ABDD28467A5E00233B46 /* Main.storyboard in Resources */,
 				E222ABD428467A5E00233B46 /* GameScene.sks in Resources */,
+				E2394D73284684F30050BB80 /* lazer2.mp3 in Resources */,
 				E222ABDF28467A6000233B46 /* Assets.xcassets in Resources */,
 				E222ABE228467A6000233B46 /* LaunchScreen.storyboard in Resources */,
 				E222ABD628467A5E00233B46 /* Actions.sks in Resources */,
