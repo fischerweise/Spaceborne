@@ -17,6 +17,7 @@
 		E222ABE228467A6000233B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E222ABE028467A6000233B46 /* LaunchScreen.storyboard */; };
 		E2394D73284684F30050BB80 /* lazer2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2394D71284684F30050BB80 /* lazer2.mp3 */; };
 		E2394D74284684F30050BB80 /* lazer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2394D72284684F30050BB80 /* lazer.mp3 */; };
+		E2394D76284699060050BB80 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2394D75284699060050BB80 /* explosion.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E222ABE128467A6000233B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2394D71284684F30050BB80 /* lazer2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lazer2.mp3; sourceTree = "<group>"; };
 		E2394D72284684F30050BB80 /* lazer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lazer.mp3; sourceTree = "<group>"; };
+		E2394D75284699060050BB80 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				E222ABE028467A6000233B46 /* LaunchScreen.storyboard */,
 				E2394D72284684F30050BB80 /* lazer.mp3 */,
 				E2394D71284684F30050BB80 /* lazer2.mp3 */,
+				E2394D75284699060050BB80 /* explosion.mp3 */,
 			);
 			path = Spaceborne;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				E222ABDF28467A6000233B46 /* Assets.xcassets in Resources */,
 				E222ABE228467A6000233B46 /* LaunchScreen.storyboard in Resources */,
 				E222ABD628467A5E00233B46 /* Actions.sks in Resources */,
+				E2394D76284699060050BB80 /* explosion.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
