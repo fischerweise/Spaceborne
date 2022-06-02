@@ -10,15 +10,15 @@ import SpriteKit
 
 class GameOverScene: SKScene {
     
-    let restartLabel = SKLabelNode(fontNamed: "Futura-Bold")
+    let restartLabel = SKLabelNode(fontNamed: "Rockwell-Bold")
     
     override func didMove(to view: SKView) {
-        let background = SKSpriteNode(imageNamed: "background")
+        let background = SKSpriteNode(imageNamed: "mainBackground")
         background.position = CGPoint(x: self.size.width / 2, y: self.size.height / 2)
         background.zPosition = 0
         self.addChild(background)
         
-        let gameOverLabel = SKLabelNode(fontNamed: "Futura-Bold")
+        let gameOverLabel = SKLabelNode(fontNamed: "Rockwell-Bold")
         gameOverLabel.text = "GAME OVER"
         gameOverLabel.fontSize = 120
         gameOverLabel.fontColor = SKColor.white
@@ -26,7 +26,7 @@ class GameOverScene: SKScene {
         gameOverLabel.zPosition = 1
         self.addChild(gameOverLabel)
         
-        let scoreLabel = SKLabelNode(fontNamed: "Futura-Bold")
+        let scoreLabel = SKLabelNode(fontNamed: "Rockwell-Bold")
         scoreLabel.text = "SCORE: \(gameScore)"
         scoreLabel.fontSize = 100
         scoreLabel.fontColor = SKColor.yellow
@@ -42,7 +42,7 @@ class GameOverScene: SKScene {
             defaults.set(highScoreNumber, forKey: "highScoreSaved")
         }
         
-        let highScoreLabel = SKLabelNode(fontNamed: "Futura-Bold")
+        let highScoreLabel = SKLabelNode(fontNamed: "Rockwell-Bold")
         highScoreLabel.text = "HIGH SCORE: \(highScoreNumber)"
         highScoreLabel.fontSize = 100
         highScoreLabel.fontColor = SKColor.red

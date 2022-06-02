@@ -12,19 +12,19 @@ var gameScore = 0
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
-    let scoreLabel = SKLabelNode(fontNamed: "Futura-Bold")
+    let scoreLabel = SKLabelNode(fontNamed: "Rockwell-Bold")
     
     var livesNumber = 3
-    let livesLabel = SKLabelNode(fontNamed: "Futura-Bold")
+    let livesLabel = SKLabelNode(fontNamed: "Rockwell-Bold")
     var levelNumber = 0
     
     let player = SKSpriteNode(imageNamed: "spaceship")
     
     //MARK: - Sound Effects
-//    let bulletSound = SKAction.playSoundFileNamed("lazer.mp3", waitForCompletion: false)
-//    let explosionSound = SKAction.playSoundFileNamed("explosion.mp3", waitForCompletion: false)
+    let bulletSound = SKAction.playSoundFileNamed("lazer.mp3", waitForCompletion: false)
+    let explosionSound = SKAction.playSoundFileNamed("explosion.mp3", waitForCompletion: false)
     
-    let tapToStartLabel = SKLabelNode(fontNamed: "Futura-Bold")
+    let tapToStartLabel = SKLabelNode(fontNamed: "Rockwell-Bold")
     
     
     enum gameState {
@@ -102,7 +102,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         //MARK: - Lives
         livesLabel.text = "LIVES: 3"
         livesLabel.fontSize = 60
-        livesLabel.fontColor = SKColor.white
+        livesLabel.fontColor = SKColor.green
         livesLabel.horizontalAlignmentMode = SKLabelHorizontalAlignmentMode.right
         livesLabel.position = CGPoint(x: self.size.width * 0.80, y: self.size.height + livesLabel.frame.size.height)
         livesLabel.zPosition = 100
@@ -250,7 +250,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let scaleIn = SKAction.scale(to: 0.3, duration: 0.1)
         let fadeOut = SKAction.fadeOut(withDuration: 0.1)
         let delete = SKAction.removeFromParent()
-        let explosionSequence = SKAction.sequence([/*explosionSound,*/ scaleIn, fadeOut, delete])
+        let explosionSequence = SKAction.sequence([explosionSound, scaleIn, fadeOut, delete])
         explosion.run(explosionSequence)
     }
     
@@ -294,7 +294,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         let moveBullet = SKAction.moveTo(y: self.size.height + bullet.size.height, duration: 1)
         let deleteBullet = SKAction.removeFromParent()
-        let bulletSequence = SKAction.sequence([/*bulletSound,*/ moveBullet, deleteBullet])
+        let bulletSequence = SKAction.sequence([bulletSound, moveBullet, deleteBullet])
         bullet.run(bulletSequence)
     }
     

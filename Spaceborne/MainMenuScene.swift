@@ -10,12 +10,12 @@ import SpriteKit
 
 class MainMenuScene: SKScene {
     override func didMove(to view: SKView) {
-        let background = SKSpriteNode(imageNamed: "background")
+        let background = SKSpriteNode(imageNamed: "mainBackground")
         background.position = CGPoint(x: self.size.width / 2, y: self.size.height / 2)
         background.zPosition = 0
         self.addChild(background)
         
-        let gameBy = SKLabelNode(fontNamed: "Futura-Bold")
+        let gameBy = SKLabelNode(fontNamed: "Rockwell-Bold")
         gameBy.text = "fischerweise PRESENTS"
         gameBy.fontSize = 50
         gameBy.fontColor = SKColor.white
@@ -23,7 +23,7 @@ class MainMenuScene: SKScene {
         gameBy.zPosition = 1
         self.addChild(gameBy)
         
-        let gameName = SKLabelNode(fontNamed: "Futura-Bold")
+        let gameName = SKLabelNode(fontNamed: "Rockwell-Bold")
         gameName.text = "SPACE"
         gameName.fontSize = 200
         gameName.fontColor = SKColor.white
@@ -31,7 +31,7 @@ class MainMenuScene: SKScene {
         gameName.zPosition = 1
         self.addChild(gameName)
         
-        let gameName2 = SKLabelNode(fontNamed: "Futura-Bold")
+        let gameName2 = SKLabelNode(fontNamed: "Rockwell-Bold")
         gameName2.text = "BORNE"
         gameName2.fontSize = 200
         gameName2.fontColor = SKColor.white
@@ -39,7 +39,7 @@ class MainMenuScene: SKScene {
         gameName2.zPosition = 1
         self.addChild(gameName2)
         
-        let startGame = SKLabelNode(fontNamed: "Futura-Bold")
+        let startGame = SKLabelNode(fontNamed: "Rockwell-Bold")
         startGame.text = "START GAME"
         startGame.fontSize = 100
         startGame.fontColor = SKColor.green
