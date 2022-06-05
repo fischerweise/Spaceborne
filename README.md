@@ -1,6 +1,6 @@
 # Spaceborne
 
-## Spaceborne is a game that created in *Xcode* with using *SpriteKit* feature.
+## Spaceborne is a game that created in *Xcode* with using *SpriteKit* feature. This game is a Space-Shooter game genre.
 
 ### Used Libraries
 
