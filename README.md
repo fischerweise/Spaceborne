@@ -11,6 +11,7 @@
 
 ### The Game has various features.
 
+- No storyboard was used from the beginning to the end of the project. Everything is built with code.
 - It completely supports the *Autolayout* in every device of iOS, vary from iPhone 13 mini to iPad Pro 12.9.
 - It also supports iOS 9 and above. 
 - Main Menu
